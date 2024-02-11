@@ -25,7 +25,7 @@ const HeroContent = () => {
           <SparklesIcon className="h-5 w-5 mr-[8px] text-[#b49bff] inline-block" />
           <h1 className=" Welcome-text text-[13px]">
             {" "}
-            Full Stack Developer Portfolio
+            Front-End Developer Portfolio
           </h1>
         </motion.div>
 
@@ -44,7 +44,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-4 max-w-[600px]"
         >
-          I&apos;m a full stack developer with a passion for creating beautiful
+          I&apos;m a front-end developer with a passion for creating beautiful
           and functional websites. Check out my projects below!
         </motion.p>
         <motion.a
