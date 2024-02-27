@@ -26,10 +26,10 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex items-start justify-center translate-y-[-50px] gap-20   z-[50] w-auto h-auto">
+      <div className="flex items-start justify-center translate-y-[-50px] gap-20   z-[40] w-auto h-auto">
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className=" w-auto h-auto flex flex-col  justify-center items center z-[50] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white  "
+          className=" w-auto h-auto flex flex-col  justify-center items center z-[40] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white  "
         >
           <h1 className=" text-3xl text-white">Joint Secretary</h1>
           <h2 className=" text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -44,7 +44,7 @@ const Encryption = () => {
         </motion.div>
         <motion.div
           variants={slideInFromRight(0.5)}
-          className=" w-auto h-auto flex flex-col  justify-center items center z-[50] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white"
+          className=" w-auto h-auto flex flex-col  justify-center items center z-[40] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white"
         >
           <h1 className=" text-3xl text-white">Deisgn Head</h1>
           <h2 className=" text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
