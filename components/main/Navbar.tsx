@@ -26,18 +26,15 @@ const Navbar = () => {
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
           <a
             href="#about-me"
-            className="h-auto w-full flex flex-row items-center"
+            className="h-auto w-full flex flex-row items-start"
           >
             <Image
-              src="/Union.svg"
+              src="/logo.png"
               alt="logo"
-              width={50}
+              width={250}
               height={50}
               className="cursor-pointer hover:animate-slowspin"
             />
-            <span className="font-bold  ml-[5px] sm:ml-[10px] hidden md:block text-gray-300">
-              Tanishk Soam
-            </span>
           </a>
 
           <div>

@@ -26,7 +26,7 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className=" w-auto h-auto flex items-start justify-center translate-y-[-50px] gap-20 z-[40] px-10 ">
+      <div className=" w-auto h-auto flex flex-col md:flex-row items-start justify-center translate-y-[-50px] gap-20 z-[40] px-10 ">
         <motion.div
           variants={slideInFromLeft(0.5)}
           className=" w-auto h-[100%] flex flex-col  justify-center items center z-[40] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white  "
