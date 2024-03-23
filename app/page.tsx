@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-full w-full">
+    <main className="h-full w-screen">
       <div className="flex flex-col gap-4">
         <Hero />
         <Skills />
