@@ -8,17 +8,25 @@ import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 import AboutMe from "./aboutme";
+import Menu from "./menu";
 
 const Navbar = () => {
   const [isDisplays, setDisplays] = React.useState(false);
 
   const openAboutMe = () => {
     setDisplays(true);
-    console.log(setDisplays, "asdahdi");
   };
   const closeAboutMe = () => {
     setDisplays(false);
-    console.log(setDisplays, "zhbas");
+  };
+
+  const [isDisplaysMenu, setDisplaysMenu] = React.useState(false);
+
+  const openMenu = () => {
+    setDisplaysMenu(true);
+  };
+  const closeMenu = () => {
+    setDisplaysMenu(false);
   };
   return (
     <>
@@ -26,7 +34,7 @@ const Navbar = () => {
         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
           <a
             href="#about-me"
-            className="h-auto w-full flex flex-row items-start"
+            className="h-auto w-auto flex flex-row items-start"
           >
             <Image
               src="/logo.png"
@@ -37,11 +45,17 @@ const Navbar = () => {
             />
           </a>
 
-          <div>
-            
+          <div className=" flex md:hidden">
+            <Image
+              src="/menu-burger.svg"
+              alt="menu"
+              width={50}
+              height={50}
+              onClick={() => openMenu()}
+            />
           </div>
 
-          <div className="w-[500px] h-full hidden sm:flex flex-row items-center justify-between ml-10 md:mr-20">
+          <div className="w-[500px] h-full hidden md:flex flex-row items-center justify-between ml-10 md:mr-20">
             <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
               <a
                 href="#about-me"
@@ -59,7 +73,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className=" hidden sm:flex flex-row gap-5">
+          <div className=" hidden md:flex flex-row gap-5">
             {Socials.map((social, index) => (
               <a key={index} href={social.href}>
                 <Image
@@ -76,6 +90,14 @@ const Navbar = () => {
       </div>
       {isDisplays && (
         <AboutMe isDisplays={isDisplays} closeAboutMe={() => closeAboutMe()} />
+      )}
+      {isDisplaysMenu && (
+        <Menu
+          isDisplayAboutMe={isDisplays}
+          openAboutMe={() => openAboutMe()}
+          isDisplaysMenu={isDisplaysMenu}
+          closeMenu={() => closeMenu()}
+        />
       )}
     </>
   );

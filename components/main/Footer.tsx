@@ -1,8 +1,6 @@
 import React from "react";
-import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
+import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 import Image from "next/image";
-
-import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -34,23 +32,25 @@ const Footer = () => {
               className=" cursor-pointer"
             >
               <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                <RxDiscordLogo />
+                <RxLinkedinLogo />
                 <span className="text-[15px] ml-[6px]">Linkedin</span>
               </p>
             </a>
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">About</div>
+            <div className="font-bold text-[16px]">Hire Me</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Hire Me</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Learning about me</span>
+              <span className="text-[15px] ml-[6px]">
+                contact: +91 9897283397
+              </span>
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">
                 soamtanishk@gmail.com
               </span>
+            </p>
+            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <span className="text-[15px] ml-[6px]"></span>
             </p>
           </div>
         </div>

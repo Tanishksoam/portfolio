@@ -12,7 +12,7 @@ const AboutMe: React.FC<ModalProps> = ({ isDisplay, closeAboutMe }) => {
       ({isDisplay} && ()
       <div
         id="about-me"
-        className="  w-screen h-screen backdrop-blur-lg flex flex-col  justify-center items-center fixed z-50"
+        className="  w-screen h-screen backdrop-blur-lg flex flex-col top-0 justify-center items-center fixed z-50"
       >
         <Image
           src={"./cross1.svg"}

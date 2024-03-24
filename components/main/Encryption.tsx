@@ -15,7 +15,7 @@ const Encryption = () => {
       <div className=" w-full h-auto mb-16 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
+          className=" text-3xl sm:text-[40px] font-medium text-center text-gray-200"
         >
           Postions
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
@@ -31,27 +31,27 @@ const Encryption = () => {
           variants={slideInFromLeft(0.5)}
           className=" w-auto h-[100%] flex flex-col  justify-center items center z-[40] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white  "
         >
-          <h1 className=" text-3xl text-white">Joint Secretary</h1>
-          <h2 className=" text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <h1 className=" text-xl sm:text-3xl text-white">Joint Secretary</h1>
+          <h2 className=" text-lg sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Innovation & Entrepreneurship Cell
           </h2>
-          <h4 className=" w-auto text-white text-md font-thin mt-4">
+          <h4 className=" w-auto text-white text-sm sm:text-md font-thin mt-4">
             Being the Joint Secretary of I&E Cell, I am responsible for the
             conduction of various events and workshops. I personally look after
             the Sponsorship team for various event and also contributed in
-            develop of club and event websites.
+            development of club and event websites.
           </h4>
         </motion.div>
         <motion.div
           variants={slideInFromRight(0.5)}
           className=" w-auto h-[100%] flex flex-col  justify-center items center z-[40] p-8 rounded-3xl border-2 bg-opacity-10 backdrop-brightness-20 bg-white"
         >
-          <h1 className=" text-3xl text-white">Deisgn Head</h1>
-          <h2 className=" text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <h1 className=" text-xl sm:text-3xl text-white">Deisgn Head</h1>
+          <h2 className=" text-lg sm:text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Center of Excellence for AI and Robotics
           </h2>
-          <h4 className=" w-auto text-white text-md font-thin mt-4">
-            As CEAR&apos;s Design Head&lsquo; I shape the center&apos;s visual
+          <h4 className=" w-auto text-white text-sm sm:text-md font-thin mt-4">
+            As CEAR&apos;s Design Head&rsquo; I shape the center&apos;s visual
             identity&lsquo; focusing on IoT and robotics projects&rsquo; Leading
             a creative team&lsquo; I ensure a compelling design for
             events&lsquo; workshops&lsquo; and projects&lsquo; aiming for
@@ -60,7 +60,7 @@ const Encryption = () => {
         </motion.div>
       </div>
       <div className=" ">
-        <div className="cursive text-3xl font-medium text-center text-gray-300">
+        <div className="cursive text-xl sm:text-3xl font-medium text-center text-gray-300">
           &quot;Coding dreams into digital reality&ldquo;flawlessly.&quot;
         </div>
       </div>
