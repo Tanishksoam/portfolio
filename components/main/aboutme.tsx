@@ -45,9 +45,9 @@ const AboutMe: React.FC<ModalProps> = ({ isDisplay, closeAboutMe }) => {
             enrich his problem-solving abilities and adaptability. His
             collaborative nature, creativity, and decision-making prowess set
             him apart as a candidate, making him a valuable asset to any team.
-            Tanishk's alignment with Google's mission and his eagerness to
-            contribute make him a compelling candidate for any endeavor in the
-            tech industry.
+            Tanishk&apos;s alignment with Google&apos;s mission and his
+            eagerness to contribute make him a compelling candidate for any
+            endeavor in the tech industry.
           </h4>
         </div>
       </div>
