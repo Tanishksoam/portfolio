@@ -27,7 +27,7 @@ const AboutMe: React.FC<ModalProps> = ({ isDisplay, closeAboutMe }) => {
             {" "}
             ABOUT ME
           </h2>
-          <h4 className="text-lg text-gray-300 text-justify">
+          <h4 className="text-xs sm:text-sm md:text-lg text-gray-300 text-justify overflow-y-scroll">
             Tanishk Soam is a driven and enthusiastic individual with a profound
             passion for technology, particularly in the realms of web
             development and cybersecurity. His journey into the world of web
