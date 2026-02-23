@@ -28,26 +28,25 @@ const AboutMe: React.FC<ModalProps> = ({ isDisplay, closeAboutMe }) => {
             ABOUT ME
           </h2>
           <h4 className="text-xs sm:text-sm md:text-lg text-gray-300 text-justify overflow-y-scroll">
-            Tanishk Soam is a driven and enthusiastic individual with a profound
-            passion for technology, particularly in the realms of web
-            development and cybersecurity. His journey into the world of web
-            development was ignited by a fascination with the boundless
-            possibilities of the internet and a natural inclination for solving
-            complex challenges. Through self-driven education and a
-            cybersecurity course at IIT Delhi, Tanishk has cultivated a
-            comprehensive understanding of web development principles and
-            cybersecurity best practices. Proficient in languages like Python,
-            C++, and JavaScript, Tanishk has practical experience with the React
-            framework and has successfully developed functional projects,
-            including an innovative IoT-based car accident detection device.
-            Beyond his technical skills, Tanishk is a well-rounded individual
-            with interests in dance, literature, sports, and travel, which
-            enrich his problem-solving abilities and adaptability. His
-            collaborative nature, creativity, and decision-making prowess set
-            him apart as a candidate, making him a valuable asset to any team.
-            Tanishk&apos;s alignment with Google&apos;s mission and his
-            eagerness to contribute make him a compelling candidate for any
-            endeavor in the tech industry.
+            Tanishk Soam is a Computer Engineering student at Army Institute of
+            Technology, Pune (CGPA: 8.69) with hands-on professional experience
+            across multiple tech companies. Currently a Software Developer
+            Intern at Foosh.ai, he works on AI model integration for image and
+            video generation platforms using Next.js, React, and Tailwind CSS.
+            <br />
+            <br />
+            His experience includes enterprise-level work at CITI Groups, where
+            he migrated 200+ repositories and built CI/CD pipelines reducing
+            deployment time by 75%. He has architected full-stack platforms like
+            SeaWolf (surf alert system for 4000+ users) and developed event
+            websites handling 2000+ users with Razorpay integration at Mission
+            Healthy Bharat.
+            <br />
+            <br />
+            Tanishk is also an accomplished CTF competitor, winning 1st place at
+            TechMatrix SCIT Pune and placing in multiple cybersecurity
+            competitions. His technical toolkit spans Python, TypeScript, React,
+            Next.js, Node.js, PostgreSQL, MongoDB, and more.
           </h4>
         </div>
       </div>

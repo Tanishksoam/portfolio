@@ -13,21 +13,21 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/ecom.png"
-          title="Ecommerce"
+          title="DressCode"
           link="https://ecomerce-tanishks-projects.vercel.app/"
-          description="Modern Threads: Elevate your online shopping experience with my dynamic eCommerce website. Seamlessly blending style and technology, it offers intuitive navigation, personalized recommendations, and secure checkout for a modern retail journey"
-        />
-        <ProjectCard
-          src="/nexfin.png"
-          title="NexFin"
-          link="https://nexfin-two.vercel.app/"
-          description="Revolutionize SMEs with an intuitive website, powered by React.js, Redux, Firebase, and Tailwind CSS. Automate payment requests effortlessly, offering small businesses an efficient solution for seamless financial transactions."
+          description="E-commerce platform built with React, Firebase, and Redux. Features seamless product browsing, cart management, personalized recommendations, and secure checkout for a modern shopping experience."
         />
         <ProjectCard
           src="/portfolio.png"
-          title="Space Themed Website"
-          link="#hero"
-          description="Embark on a cosmic journey through my portfolio, a Next.js space-themed showcase. Explore stellar design and seamless interactivity as you navigate through my projects, revealing the depths of my skills and creativity in this cosmic odyssey."
+          title="SeaWolf"
+          link="https://deploy-railway-production-11b7.up.railway.app"
+          description="Full-stack surf alert platform serving 4000+ users. Built with Flask, PostgreSQL, and WhatsApp API integration for personalized weather-based surfing notifications and automated alerts."
+        />
+        <ProjectCard
+          src="/portfolio.png"
+          title="Workouts"
+          link="https://github.com/Tanishksoam/Workouts"
+          description="Mobile workout tracking app built with React Native, MongoDB, and GraphQL. Enables seamless exercise logging, progress tracking, and personalized fitness management on the go."
         />
       </div>
     </div>

@@ -123,14 +123,14 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "MBootstrap 5",
-    Image: "/bootsrap.ico",
+    skill_name: "React",
+    Image: "/react.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "React",
-    Image: "/react.png",
+    skill_name: "React Native",
+    Image: "/ReactNative .png",
     width: 80,
     height: 80,
   },
@@ -140,7 +140,6 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
-
   {
     skill_name: "Type Script",
     Image: "/ts.png",
@@ -175,13 +174,19 @@ export const Backend_skill = [
     height: 55,
   },
   {
+    skill_name: "PostgreSQL",
+    Image: "/postgres.png",
+    width: 70,
+    height: 70,
+  },
+  {
     skill_name: "My SQL",
     Image: "/mysql.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Next js 13",
+    skill_name: "Next js 14",
     Image: "/next.png",
     width: 80,
     height: 80,

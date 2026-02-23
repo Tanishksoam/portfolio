@@ -39,19 +39,22 @@ const Footer = () => {
           </div>
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Hire Me</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="tel:+919897283397"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors"
+            >
               <span className="text-[15px] ml-[6px]">
-                contact: +91 9897283397
+                +91 9897283397
               </span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="mailto:soamtanishk@gmail.com"
+              className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-400 transition-colors"
+            >
               <span className="text-[15px] ml-[6px]">
                 soamtanishk@gmail.com
               </span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]"></span>
-            </p>
+            </a>
           </div>
         </div>
       </div>
